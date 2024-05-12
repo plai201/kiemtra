@@ -1,0 +1,42 @@
+<!-- dialog_chi_tiet_sanpham.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/textViewTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/textViewGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonXoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa"/>
+
+    <Button
+        android:id="@+id/buttonCapNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật"/>
+
+    <Button
+        android:id="@+id/buttonDong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đóng"/>
+</LinearLayout>
